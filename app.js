@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Add a click event listener to the button
     githubButton.addEventListener("click", function() {
         // Redirect to the GitHub link when the button is clicked
-        window.location.href = "";
+        window.location.href = "https://github.com/chadepowell/Calculator";
     });
 });
 
