@@ -24,3 +24,15 @@ function Clear() {
 function del() {
     outputScreen.value = outputScreen.value.slice(0, -1);
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element by its class name
+    var githubButton = document.querySelector(".button-one");
+
+    // Add a click event listener to the button
+    githubButton.addEventListener("click", function() {
+        // Redirect to the GitHub link when the button is clicked
+        window.location.href = "";
+    });
+});
+
